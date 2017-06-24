@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="com.example.syed.mysoretourismapp.MainActivity">
+
+    <!-- Places category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textIcon">
+        <TextView
+            android:id="@+id/places"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_places" />
+    </FrameLayout>
+
+    <!-- Shopping category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textIcon">
+        <TextView
+            android:id="@+id/shop"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_shop" />
+    </FrameLayout>
+
+    <!-- Restaurent category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textIcon">
+        <TextView
+            android:id="@+id/eat"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_eat" />
+    </FrameLayout>
+
+    <!-- Hotel category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textIcon">
+        <TextView
+            android:id="@+id/hotel"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_Stay" />
+    </FrameLayout>
+</LinearLayout>
